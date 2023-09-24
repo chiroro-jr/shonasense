@@ -1,11 +1,11 @@
 import streamlit as st
 from pickle import load
-from keras.models import load_model
+import tensorflow as tf
 from keras.preprocessing.sequence import pad_sequences
 import numpy as np
 
 # load the model
-model = load_model('./models/model_with_embedding.keras')
+model = tf.keras.saving.load_model('./models/model_with_embedding.keras')
 
 # load the tokenizer
 tokenizer = load(open('./models/tokenizer.pkl', 'rb'))
