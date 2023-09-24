@@ -52,7 +52,7 @@ if st.button("Generate Text", type="secondary"):
         st.write("##### Result")
         st.write("No result. You need to provide at least 5 words")
     else:
-        prediction = generate_seq(model, tokenizer, 50, sample_text, 5)
+        prediction = generate_seq(model, tokenizer, 10, sample_text, 5)
         st.write("##### Result")
         st.write(f"`Sample text provided`: {sample_text}")
         st.write(f"`Text generated`: {prediction}")
