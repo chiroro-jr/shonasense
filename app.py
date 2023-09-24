@@ -65,6 +65,6 @@ else:
 st.divider()
 """
 ## Reference Links
-- [Github repository for project](https://github.com) - This contains all the code for this app (jupyter notebooks, 
+- [Github repository for project](https://github.com/chiroro-jr/shonasense) - This contains all the code for this app (jupyter notebooks, 
 datasets, saved models and so on.)
 """
