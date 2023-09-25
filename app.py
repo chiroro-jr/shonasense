@@ -37,7 +37,10 @@ def generate_seq(model, tokenizer, seq_length, seed_text, n_words):
 
 """
 # ShonaSense
-A text generation model that will predict the next 3-5 Shona words likely to be typed.
+A text generation model that will predict the next 5 Shona words likely to be typed.
+> ##### Disclaimer
+> Due to network issues I could not work in Google Colab. My runtime kept on disconnecting. I had to work locally
+> using Anaconda. I included the notebooks in my GitHub repository whose link is in the reference links section below.
 """
 st.divider()
 """
